@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"DeferFeatureUpdates"=dword:00000001
+"DeferFeatureUpdatesPeriodInDays"=dword:0000001e
+"PauseFeatureUpdatesStartTime"=""
+"DeferQualityUpdates"=dword:00000001
+"DeferQualityUpdatesPeriodInDays"=dword:0000000e
+"PauseQualityUpdatesStartTime"=""
+"ManagePreviewBuilds"=dword:00000001
+"SetDisablePauseUXAccess"=dword:00000001
+"SetAllowOptionalContent"=dword:00000001
+"AllowOptionalContent"=dword:00000002
+"TargetReleaseVersion"=dword:00000001
+"ProductVersion"="Windows 11"
+"TargetReleaseVersionInfo"="24H2"
+"SetUpdateNotificationLevel"=dword:00000001
+"UpdateNotificationLevel"=dword:00000000
+"SetComplianceDeadlineForFU"=dword:00000001
+"ConfigureDeadlineForFeatureUpdates"=dword:00000002
+"ConfigureDeadlineGracePeriodForFeatureUpdates"=dword:00000007
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"AUPowerManagement"=dword:00000001
+"NoAutoUpdate"=dword:00000000
+"AUOptions"=dword:00000004
+"AutomaticMaintenanceEnabled"=dword:00000001
+"ScheduledInstallDay"=dword:00000003
+"ScheduledInstallTime"=dword:00000002
+"AllowMUUpdateService"=dword:00000001
