@@ -1,12 +1,6 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
-"DeferFeatureUpdates"=dword:00000001
-"DeferFeatureUpdatesPeriodInDays"=dword:0000001e
-"PauseFeatureUpdatesStartTime"=""
-"DeferQualityUpdates"=dword:00000001
-"DeferQualityUpdatesPeriodInDays"=dword:0000000e
-"PauseQualityUpdatesStartTime"=""
 "ManagePreviewBuilds"=dword:00000001
 "SetDisablePauseUXAccess"=dword:00000001
 "SetAllowOptionalContent"=dword:00000001
@@ -16,15 +10,22 @@ Windows Registry Editor Version 5.00
 "TargetReleaseVersionInfo"="24H2"
 "SetUpdateNotificationLevel"=dword:00000001
 "UpdateNotificationLevel"=dword:00000000
+"SetComplianceDeadlineForQU"=dword:00000001
+"ConfigureDeadlineForQualityUpdates"=dword:00000005
+"ConfigureDeadlineGracePeriod"=dword:00000002
 "SetComplianceDeadlineForFU"=dword:00000001
-"ConfigureDeadlineForFeatureUpdates"=dword:00000002
-"ConfigureDeadlineGracePeriodForFeatureUpdates"=dword:00000007
+"ConfigureDeadlineForFeatureUpdates"=dword:00000005
+"ConfigureDeadlineGracePeriodForFeatureUpdates"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "AUPowerManagement"=dword:00000001
 "NoAutoUpdate"=dword:00000000
 "AUOptions"=dword:00000004
 "AutomaticMaintenanceEnabled"=dword:00000001
-"ScheduledInstallDay"=dword:00000003
+"ScheduledInstallDay"=dword:00000000
 "ScheduledInstallTime"=dword:00000002
+"ScheduledInstallEveryWeek"=dword:00000001
+"AllowMUUpdateService"=dword:00000001
+
+dword:00000002
 "AllowMUUpdateService"=dword:00000001
